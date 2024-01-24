@@ -81,10 +81,14 @@ const Sidebar = ({ open, onClose }) => {
               />
             </Box>
             <Box paddingY={1}>
-              <CustomButton href='#' icon={<HelpIcon />} text='About' />
+              <Link to='/about' style={{ textDecoration: 'none' }}>
+                <CustomButton icon={<HelpIcon />} text='About' />
+              </Link>
             </Box>
             <Box paddingY={1}>
-              <CustomButton href='#' icon={<EmailIcon />} text='Contact' />
+              <Link to='/contact' style={{ textDecoration: 'none' }}>
+                <CustomButton icon={<EmailIcon />} text='Contact' />
+              </Link>
             </Box>
           </Box>
         </Box>

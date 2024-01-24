@@ -6,7 +6,7 @@ function About(props) {
       <section>
         <h2>About Us</h2>
         <p>
-          Welcome to Cryptocurrency Hub, your go-to destination for
+          Welcome to Cryptocurrency Dashboard, your go-to destination for
           comprehensive and real-time cryptocurrency information. We strive to
           empower enthusiasts and investors with the latest data, trends, and
           insights in the dynamic world of digital assets.

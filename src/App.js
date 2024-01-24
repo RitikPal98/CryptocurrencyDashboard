@@ -9,6 +9,9 @@ import ColorModeContext from './components/ColorModeContext';
 import Layout from './layout/Layout';
 import Dashboard from './pages/Dashboard';
 import About from './pages/About';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import Terms from './pages/Terms';
+import Contact from './pages/Contact';
 
 const App = () => {
   const [mode, setMode] = useState('dark');
@@ -48,6 +51,9 @@ const App = () => {
             <Layout>
             <Routes>
                 <Route exact path='/about' element={<About />} />
+                <Route exact path='/contact' element={<Contact />} />
+                <Route exact path='/privacy-policy' element={<PrivacyPolicy />} />
+                <Route exact path='/terms' element={<Terms />} />
                 <Route exact path='/' element={<Dashboard />} />
               </Routes>
             </Layout>

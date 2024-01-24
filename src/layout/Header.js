@@ -127,9 +127,15 @@ const Header = ({ onSidebarOpen }) => {
               display: { lg: 'flex', md: 'none', xs: 'none' },
             }}
           >
-            <CustomButton href='/' icon={<DashboardIcon />} text='Dashboard' />
-            <CustomButton href='/about' icon={<HelpIcon />} text='About' />
-            <CustomButton href='/' icon={<EmailIcon />} text='Contact' />
+            <Link to='/' style={{ textDecoration: 'none' }}>
+              <CustomButton icon={<DashboardIcon />} text='Dashboard' />
+            </Link>
+            <Link to='/about' style={{ textDecoration: 'none' }}>
+              <CustomButton icon={<HelpIcon />} text='About' />
+            </Link>
+            <Link to='/contact' style={{ textDecoration: 'none' }}>
+              <CustomButton icon={<EmailIcon />} text='Contact' />
+            </Link>
           </Box>
           <Divider
             orientation='vertical'

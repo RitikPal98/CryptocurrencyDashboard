@@ -37,17 +37,16 @@ const Dashboard = () => {
         <Container maxWidth={false}>
           <Grid container spacing={3}>
             <DashboardHeader />
-
-            <Grid item lg={3} sm={6} xl={3} xs={12}>
+            <Grid className='main-div' item lg={3} sm={6} xl={3} xs={12}>
               <Categories />
             </Grid>
-            <Grid item lg={3} sm={6} xl={3} xs={12}>
+            <Grid className='main-div' item lg={3} sm={6} xl={3} xs={12}>
               <Exchanges />
             </Grid>
-            <Grid item lg={3} sm={6} xl={3} xs={12}>
+            <Grid className='main-div' item lg={3} sm={6} xl={3} xs={12}>
               <AssetPlatforms />
             </Grid>
-            <Grid item lg={3} sm={6} xl={3} xs={12}>
+            <Grid className='main-div' item lg={3} sm={6} xl={3} xs={12}>
               <MarketIndexes />
             </Grid>
 

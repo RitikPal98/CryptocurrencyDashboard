@@ -41,7 +41,7 @@ const Footer = () => {
                     padding: 0,
                   }}
                 >
-                  <ListItemButton component='a' href='/'>
+                  <ListItemButton component='a' href='/privacy-policy'>
                     <ListItemText
                       primary={
                         <Typography
@@ -53,7 +53,7 @@ const Footer = () => {
                       }
                     />
                   </ListItemButton>
-                  <ListItemButton component='a' href='/'>
+                  <ListItemButton component='a' href='/terms'>
                     <ListItemText
                       primary={
                         <Typography

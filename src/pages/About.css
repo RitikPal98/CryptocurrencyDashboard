@@ -26,3 +26,17 @@ ul {
 .about-main{
     padding-bottom: 4%;
 }
+.main-info{
+}
+.privacy-policy,.terms-of-use,.contact-main{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    padding-bottom: 3%;
+}
+.main-div{
+    transition: 250ms ease;
+}
+.main-div:hover{
+    transform: scale(0.9);
+}
