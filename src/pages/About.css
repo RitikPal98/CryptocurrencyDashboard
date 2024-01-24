@@ -1,0 +1,28 @@
+.about-main{
+    border: 1px solid transparent;
+    padding: 20px auto;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+.about-main-info {
+    max-width: 800px;
+    margin:20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-main>section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.about-main{
+    padding-bottom: 4%;
+}
