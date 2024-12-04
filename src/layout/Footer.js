@@ -1,14 +1,14 @@
-import React from 'react';
-import Box from '@mui/material/Box';
-import Divider from '@mui/material/Divider';
-import Grid from '@mui/material/Grid';
-import Hidden from '@mui/material/Hidden';
-import Link from '@mui/material/Link';
-import List from '@mui/material/List';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
-import Typography from '@mui/material/Typography';
-import { useTheme } from '@mui/material/styles';
+import React from "react";
+import Box from "@mui/material/Box";
+import Divider from "@mui/material/Divider";
+import Grid from "@mui/material/Grid";
+import Hidden from "@mui/material/Hidden";
+import Link from "@mui/material/Link";
+import List from "@mui/material/List";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
+import Typography from "@mui/material/Typography";
+import { useTheme } from "@mui/material/styles";
 
 const Footer = () => {
   const theme = useTheme();
@@ -20,15 +20,15 @@ const Footer = () => {
         paddingTop={1}
         paddingBottom={1}
         // sticky footer - see four values below
-        position='fixed'
-        bottom='0'
-        left='0'
-        width='100%'
+        position="fixed"
+        bottom="0"
+        left="0"
+        width="100%"
       >
         <Divider />
         <Box
           backgroundColor={theme.palette.background.default}
-          position='relative'
+          position="relative"
           padding={theme.spacing(0.25)}
         >
           <Grid container spacing={0}>
@@ -36,16 +36,16 @@ const Footer = () => {
               <Grid container item xs={12} md={4}>
                 <List
                   sx={{
-                    display: 'flex',
-                    flexDirection: 'row',
+                    display: "flex",
+                    flexDirection: "row",
                     padding: 0,
                   }}
                 >
-                  <ListItemButton component='a' href='/privacy-policy'>
+                  <ListItemButton component="a" href="/privacy-policy">
                     <ListItemText
                       primary={
                         <Typography
-                          variant='body2'
+                          variant="body2"
                           color={theme.palette.text.secondary}
                         >
                           Privacy Policy
@@ -53,11 +53,11 @@ const Footer = () => {
                       }
                     />
                   </ListItemButton>
-                  <ListItemButton component='a' href='/terms'>
+                  <ListItemButton component="a" href="/terms">
                     <ListItemText
                       primary={
                         <Typography
-                          variant='body2'
+                          variant="body2"
                           color={theme.palette.text.secondary}
                         >
                           Terms of Use
@@ -68,37 +68,37 @@ const Footer = () => {
                 </List>
               </Grid>
             </Hidden>
-            <Grid container item xs={12} md={4} justifyContent='center'>
+            <Grid container item xs={12} md={4} justifyContent="center">
               <List>
                 <ListItemButton>
                   <ListItemText
                     primary={
                       <Typography
-                        variant='body2'
+                        variant="body2"
                         color={theme.palette.text.secondary}
                       >
-                        Made with love by HackGenius
+                        Made with 🔥 by Ritik Pal
                       </Typography>
                     }
                   />
                 </ListItemButton>
               </List>
             </Grid>
-            <Grid container item xs={12} md={4} justifyContent='center'>
+            <Grid container item xs={12} md={4} justifyContent="center">
               <List>
                 <ListItemButton>
                   <ListItemText
                     primary={
                       <Typography
-                        variant='body2'
+                        variant="body2"
                         color={theme.palette.text.secondary}
                       >
-                        Data provided by{' '}
+                        Data provided by{" "}
                         <Link
-                          href='https://www.coingecko.com/'
-                          alt='CoinGecko'
-                          target='_blank'
-                          rel='noreferrer'
+                          href="https://www.coingecko.com/"
+                          alt="CoinGecko"
+                          target="_blank"
+                          rel="noreferrer"
                           color={theme.palette.text.secondary}
                         >
                           CoinGecko
